@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "installed": {
+    "hyperliquid": {
+      "source": "official",
+      "identifier": "official/hyperliquid",
+      "trust_level": "builtin",
+      "scan_verdict": "backfilled",
+      "content_hash": "sha256:7f59db5416c3fd4f",
+      "install_path": "hyperliquid",
+      "files": [
+        "SKILL.md",
+        "scripts/hyperliquid_client.py"
+      ],
+      "metadata": {
+        "backfilled_from": "optional-skills"
+      },
+      "installed_at": "2026-09-28T03:01:12.601748+00:00",
+      "updated_at": "2026-09-28T03:01:12.601748+00:00"
+    },
+    "excel-author": {
+      "source": "official",
+      "identifier": "official/excel-author",
+      "trust_level": "builtin",
+      "scan_verdict": "backfilled",
+      "content_hash": "sha256:30cee3a68b238dcf",
+      "install_path": "excel-author",
+      "files": [
+        "SKILL.md",
+        "scripts/recalc.py"
+      ],
+      "metadata": {
+        "backfilled_from": "optional-skills"
+      },
+      "installed_at": "2026-09-28T03:01:12.648808+00:00",
+      "updated_at": "2026-09-28T03:01:12.648808+00:00"
+    },
+    "stocks": {
+      "source": "official",
+      "identifier": "official/stocks",
+      "trust_level": "builtin",
+      "scan_verdict": "backfilled",
+      "content_hash": "sha256:501dcfd40853d969",
+      "install_path": "stocks",
+      "files": [
+        "SKILL.md",
+        "scripts/stocks_client.py"
+      ],
+      "metadata": {
+        "backfilled_from": "optional-skills"
+      },
+      "installed_at": "2026-09-28T03:01:12.653351+00:00",
+      "updated_at": "2026-09-28T03:01:12.653351+00:00"
+    }
+  }
+}

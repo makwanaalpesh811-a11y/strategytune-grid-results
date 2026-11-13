@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/data/data/com.termux/files/home/.hermes/logs/curator/20261106-083719",
+  "last_run_at": "2026-11-06T08:37:19.468176+00:00",
+  "last_run_duration_seconds": 4.891786,
+  "last_run_summary": "auto: 5 marked stale, 3 reactivated; llm: skipped (consolidation off)",
+  "last_run_summary_shown_at": null,
+  "paused": false,
+  "run_count": 8
+}

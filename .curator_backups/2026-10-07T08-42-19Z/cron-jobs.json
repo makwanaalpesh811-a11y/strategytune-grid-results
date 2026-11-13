@@ -1,0 +1,57 @@
+{
+  "jobs": [
+    {
+      "id": "7c70490148b9",
+      "name": "paper_trade_watchdog",
+      "prompt": "Check paper trade simulator status. Run: ~/paper_trade/start.sh status\n\nIf status shows NOT running, restart with: ~/paper_trade/start.sh start\n\nIf running, just confirm. Read ~/paper_trade/status.md and report total equity and any new trades since last check.\n\nKeep output short.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "custom",
+      "model_snapshot": "sensenova-6.8-flash-lite",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/30 * * * *",
+        "display": "*/30 * * * *"
+      },
+      "schedule_display": "*/30 * * * *",
+      "repeat": {
+        "times": null,
+        "completed": 208
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-09-24T20:45:04.133968+05:30",
+      "next_run_at": "2026-10-07T14:30:00+05:30",
+      "last_run_at": "2026-10-07T14:00:15.934554+05:30",
+      "last_status": "blocked_config",
+      "last_error": "[blocked_config:silent] delivery platform 'none' is not a known cron delivery target. Fix the job's `deliver` value or configure the platform's gateway credentials.",
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "failure_streak": 208,
+      "deliver": "none",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "last_dispatch": {
+        "scheduled_at": "2026-10-07T14:00:00+05:30",
+        "dispatched_at": "2026-10-07T14:00:15.588414+05:30",
+        "lateness_seconds": 15.6,
+        "kind": "on_time"
+      },
+      "fire_claim": null,
+      "preflight_alerted": true
+    }
+  ],
+  "updated_at": "2026-10-07T14:00:15.936468+05:30"
+}
